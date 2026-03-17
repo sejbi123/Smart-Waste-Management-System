@@ -139,7 +139,7 @@ Additional project documentation:
 
 * [Stakeholders](docs/stakeholders.md)-
 
-[Stakeholder Onion Diagram](onion.diagram.png)
+[Stakeholders Onion Diagram](docs/stakeholders.md)
 
 
 
