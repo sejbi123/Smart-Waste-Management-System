@@ -254,7 +254,10 @@ Needs:
 Additional project documentation:
 
 * [Stakeholders](docs/stakeholders.md)
-* ![Stakeholder Onion Diagram](onion.dia.png)
+* ![Stakeholder Onion Diagram]
+<a href="onion.diagram.png">
+  <img src="onion.diagram.png" width="600"/>
+</a>
 
 * System Architecture *(to be added)*
 
