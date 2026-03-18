@@ -134,7 +134,7 @@ The platform works with simulated data today and is ready for real IoT sensors i
 ---
 ### User Cards
 
- Name: System Administrator  
+## Name: System Administrator  
 Role: Platform Owner / Supervisor  
 
 Goals:
@@ -155,7 +155,7 @@ Needs:
 - Clear dashboards  
 - Reliable system performance
 
-  Name: Operations Manager  
+ ## Name: Operations Manager  
 Role: Planning & Monitoring  
 
 Goals:
@@ -174,8 +174,10 @@ Pain Points:
 Needs:
 - Real-time updates  
 - Smart route suggestions
-  Name: Driver  
-Role: Waste Collection  
+
+
+  ##Name: Driver
+  Role: Waste Collection  
 
 Goals:
 - Complete routes efficiently  
@@ -194,7 +196,7 @@ Needs:
 - Mobile-friendly interface  
 - Step-by-step navigation
 
-  Name: Field Worker  
+##  Name: Field Worker  
 Role: Bin Maintenance  
 
 Goals:
@@ -211,7 +213,9 @@ Pain Points:
 Needs:
 - Clear task assignments  
 - Location-based alerts
-  Name: Facility Worker  
+
+
+  ## Name: Facility Worker  
 Role: Waste Processing  
 
 Goals:
@@ -230,7 +234,9 @@ Pain Points:
 Needs:
 - Simple interface  
 - Fast data entry
-  Name: Citizen  
+
+
+  ## Name: Citizen  
 Role: Service User  
 
 Goals:
