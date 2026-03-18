@@ -80,33 +80,37 @@ A digital platform that combines bin data, fleet operations, scheduling, and cit
 ---
 
 ## Functional Requirements
-
 The system must:
 
-* Display simulated real-time bin fill levels and status
-* Generate optimized waste collection routes
-* Assign drivers to trucks and routes
-* Allow citizens to submit reports with location and photos
-* Track the status of citizen reports
-* Monitor fleet status and maintenance schedules
-* Track recycling bins and detect contamination
-* Send alerts when bins exceed thresholds
-* Generate dashboards and exportable reports
-* Provide a mobile-friendly interface for drivers
-
----
+- Display simulated real-time bin fill levels and bin status
+- Show bin locations on a map with visual status indicators
+- Generate optimized waste collection routes based on bin fill levels
+- Assign drivers to trucks and routes
+- Provide a mobile-friendly interface for drivers to view routes and update task status
+- Allow field operators to update bin condition and maintenance status
+- Track fleet status, driver assignments, and maintenance schedules
+- Allow citizens to submit reports with location, description, and photos
+- Track the status of citizen reports
+- Send alerts when bins exceed defined fill thresholds
+- Track recycling bins and identify possible contamination
+- Record truck arrival and unloading at waste disposal facilities
+- Allow facility staff to log waste type, quantity, and unloading status
+- Monitor waste disposal facility capacity and utilization
+- Generate dashboards, analytics, and exportable reports
+- Support role-based access for different user types
 
 ## Non-Functional Requirements
 
-* System availability during operational hours (06:00 – 22:00)
-* Fast loading dashboards (< 2 seconds)
-* Support 100+ concurrent users
-* Secure authentication and role-based access control
-* Responsive UI for mobile and desktop
-* Scalable architecture supporting thousands of bins
-* Maintain audit logs of system actions
-* Simulated sensor updates processed within 5 seconds
-
+- The system shall be available during operational hours (06:00–22:00)
+- Dashboards shall load in less than 2 seconds under normal usage
+- The system shall support at least 100 concurrent users
+- The system shall provide secure authentication and role-based access control
+- The user interface shall be responsive on both desktop and mobile devices
+- The architecture shall be scalable to support thousands of bins and multiple operational zones
+- The system shall maintain audit logs of key user and system actions
+- Simulated sensor updates shall be processed within 5 seconds
+- The system shall protect submitted user data, including citizen report information and uploaded photos
+- The system shall provide reliable data backup and recovery mechanisms
 ---
 
 ## How It Helps ECO Tirana
