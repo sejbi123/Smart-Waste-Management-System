@@ -255,7 +255,7 @@ Additional project documentation:
 
 * [Stakeholders](docs/stakeholders.md)
 * ![Stakeholder Onion Diagram]
-<a href="onion.dia.png">
+<a href="onion.dia2.png">
   <img src="onion.diagram.png" width="600"/>
 </a>
 
