@@ -132,12 +132,129 @@ Improved recycling management and reduced emissions.
 The platform works with simulated data today and is ready for real IoT sensors in the future.
 
 ---
+### User Cards
+
+ Name: System Administrator  
+Role: Platform Owner / Supervisor  
+
+Goals:
+- Monitor entire waste management system  
+- Analyze reports and KPIs  
+- Ensure system efficiency  
+
+Tasks:
+- View dashboards  
+- Manage users and roles  
+- Generate reports  
+
+Pain Points:
+- Lack of real-time data  
+- Manual reporting  
+
+Needs:
+- Clear dashboards  
+- Reliable system performance
+
+  Name: Operations Manager  
+Role: Planning & Monitoring  
+
+Goals:
+- Optimize routes and schedules  
+- Reduce operational costs  
+
+Tasks:
+- Assign routes to drivers  
+- Monitor bins and fleet  
+- Adjust schedules  
+
+Pain Points:
+- Inefficient routes  
+- No visibility of bin status  
+
+Needs:
+- Real-time updates  
+- Smart route suggestions
+  Name: Driver  
+Role: Waste Collection  
+
+Goals:
+- Complete routes efficiently  
+- Avoid delays  
+
+Tasks:
+- Follow assigned routes  
+- Collect waste  
+- Deliver to facility  
+
+Pain Points:
+- Unclear routes  
+- Traffic or delays  
+
+Needs:
+- Mobile-friendly interface  
+- Step-by-step navigation
+
+  Name: Field Worker  
+Role: Bin Maintenance  
+
+Goals:
+- Fix damaged or overflowing bins  
+
+Tasks:
+- Repair bins  
+- Respond to issues  
+
+Pain Points:
+- Delayed reports  
+- Lack of task tracking  
+
+Needs:
+- Clear task assignments  
+- Location-based alerts
+  Name: Facility Worker  
+Role: Waste Processing  
+
+Goals:
+- Manage waste unloading  
+- Track waste types and quantities  
+
+Tasks:
+- Register truck arrival  
+- Log waste data  
+- Report contamination  
+
+Pain Points:
+- Manual logging  
+- Lack of tracking system  
+
+Needs:
+- Simple interface  
+- Fast data entry
+  Name: Citizen  
+Role: Service User  
+
+Goals:
+- Report issues quickly  
+- Live in a clean environment  
+
+Tasks:
+- Submit complaints  
+- Track report status  
+
+Pain Points:
+- Slow response  
+- No feedback  
+
+Needs:
+- Easy reporting system  
+- Status updates  
 
 ## Documentation
 
 Additional project documentation:
 
-* [Stakeholders](docs/stakeholders.md)-
-* Use Cases *(to be added)*
+* [Stakeholders](docs/stakeholders.md)
+* ![Stakeholder Onion Diagram](onion.dia.png)
+
 * System Architecture *(to be added)*
 
