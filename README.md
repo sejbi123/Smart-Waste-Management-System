@@ -142,10 +142,5 @@ The platform works with simulated data today and is ready for real IoT sensors i
 Additional project documentation:
 
 * [Stakeholders](docs/stakeholders.md)
-* ![Stakeholder Onion Diagram]
-<a href="onion.dia2.png">
-  <img src="onion.diagram.png" width="600"/>
-</a>
-
 * System Architecture *(to be added)*
 
