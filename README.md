@@ -1,5 +1,5 @@
 # Smart Waste Management System
-
+ 
 ## Project Overview
 
 The **Smart Waste Management System** is a software platform designed for **ECO Tirana** to improve how waste is collected and managed in the city of Tirana, Albania.
