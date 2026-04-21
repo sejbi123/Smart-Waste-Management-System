@@ -1,4 +1,5 @@
 # Smart Waste Management System
+
    
 ## Project Overview
 
