@@ -12,7 +12,7 @@ Even without real sensors, the system **simulates bin data** (fill levels, statu
 
 ---
 
-### Problem Statement
+## Problem Statement
 
 Tirana faces several challenges in urban waste management:
 
