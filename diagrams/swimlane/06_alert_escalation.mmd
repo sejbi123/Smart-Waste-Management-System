@@ -1,0 +1,10 @@
+sequenceDiagram
+    participant S as System
+    participant M as Manager
+    participant SS as Senior Staff
+    S->>S: Check Unresolved Critical Alerts
+    S->>S: Time Limit Exceeded?
+    S->>M: Send Final Reminder
+    S->>SS: Escalate Alert to Senior Staff
+    SS->>S: Review Escalated Alert
+    S->>S: Log Escalation Event
