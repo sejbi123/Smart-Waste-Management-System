@@ -1,0 +1,9 @@
+sequenceDiagram
+    participant M as Manager
+    participant S as System
+    M->>S: View Alert List
+    M->>S: Select Alert & Acknowledge
+    S->>S: Mark Alert as 'Acknowledged'
+    M->>S: Classify Severity (Low, Medium, High)
+    S->>S: Update Alert Status & Log Action
+    S->>M: Confirm Status Update
