@@ -1,0 +1,9 @@
+sequenceDiagram
+    participant M as Manager
+    participant S as System
+    participant D as Driver
+    D->>S: Start Assigned Route
+    S->>S: Track Simulated Live Location
+    S->>M: Display Driver Progress on Map
+    D->>S: Update Task Status (In Progress)
+    M->>S: Monitor Real-time Fleet Status
