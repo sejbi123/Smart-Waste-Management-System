@@ -1,0 +1,11 @@
+sequenceDiagram
+    participant M as Manager
+    participant FO as Field Operator
+    participant S as System
+    participant C as Citizen
+    M->>S: Review New Citizen Report
+    M->>FO: Assign Report for Resolution
+    FO->>FO: Resolve Issue on Site
+    FO->>S: Update Status to 'Resolved'
+    S->>C: Notify Citizen of Resolution
+    C->>S: View Resolution Status
