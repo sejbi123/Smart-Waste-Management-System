@@ -1,0 +1,8 @@
+sequenceDiagram
+    participant C as Citizen
+    participant S as System
+    C->>S: Open Reporting Interface
+    C->>S: Submit Issue (Type, Location, Description, Photo)
+    S->>S: Validate Required Information
+    S->>S: Log Report & Generate Reference ID
+    S->>C: Provide Reference ID & Confirmation
