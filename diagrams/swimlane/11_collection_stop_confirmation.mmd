@@ -1,0 +1,9 @@
+sequenceDiagram
+    participant D as Driver
+    participant S as System
+    D->>D: Arrive at Bin Location
+    D->>D: Empty Bin into Truck
+    D->>S: Confirm Collection Completion (via App)
+    S->>S: Reset Bin Fill Level to 0%
+    S->>S: Record Timestamp & Location
+    S->>D: Confirm Successful Update
