@@ -1,0 +1,9 @@
+sequenceDiagram
+    participant M as Manager
+    participant S as System
+    participant D as Driver
+    M->>S: Identify New Incident or Full Bin
+    M->>S: Request Route Adjustment
+    S->>S: Recalculate Route Dynamically
+    S->>D: Push Updated Route to Mobile App
+    D->>S: Acknowledge New Route
