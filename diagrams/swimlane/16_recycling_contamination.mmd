@@ -1,0 +1,9 @@
+sequenceDiagram
+    participant FO as Field Operator
+    participant S as System
+    FO->>FO: Inspect Recycling Bin
+    FO->>FO: Detect Contamination (Non-recyclables)
+    FO->>S: Record Contamination Incident
+    FO->>S: Provide Details & Evidence (Photo)
+    S->>S: Update Recycling Performance Metrics
+    S->>S: Trigger Alert for Manager Review
