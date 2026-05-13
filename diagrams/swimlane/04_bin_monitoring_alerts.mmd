@@ -1,0 +1,8 @@
+sequenceDiagram
+    participant S as System (IoT Simulator)
+    participant M as Manager
+    S->>S: Monitor Simulated Fill Levels
+    S->>S: Detect Level > Threshold (e.g., 80%)
+    S->>S: Generate Overflow Alert
+    S->>M: Send Real-time Notification
+    S->>S: Update Dashboard Alert List
