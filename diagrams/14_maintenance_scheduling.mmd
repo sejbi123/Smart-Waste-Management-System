@@ -1,0 +1,9 @@
+sequenceDiagram
+    participant M as Manager
+    participant S as System
+    participant FO as Field Operator
+    M->>S: Identify Vehicle/Bin Needing Maintenance
+    M->>S: Create Maintenance Task
+    M->>FO: Assign Task to Field Operator
+    FO->>S: Acknowledge Assignment
+    S->>S: Update Asset Status to 'Under Maintenance'
