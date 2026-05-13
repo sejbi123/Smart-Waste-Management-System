@@ -1,0 +1,9 @@
+sequenceDiagram
+    participant M as Manager
+    participant S as System
+    participant D as Driver
+    M->>S: View Driver Availability & Shifts
+    M->>S: Assign Driver to Truck & Route
+    S->>S: Validate Assignment Logic
+    S->>D: Notify Driver of New Assignment
+    D->>S: Confirm Acceptance
