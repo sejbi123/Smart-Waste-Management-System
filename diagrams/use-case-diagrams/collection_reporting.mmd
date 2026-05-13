@@ -1,0 +1,23 @@
+graph LR
+    subgraph "Smart Waste Management System"
+        UC7(Execute Collection Route)
+        UC8(Confirm Collection Stop)
+        UC9(Submit Citizen Report)
+        UC10(Assign/Track Citizen Reports)
+        UC11(Resolve Citizen Issue)
+        UC12(View Analytical Reports)
+    end
+
+    Citizen((Citizen))
+    Manager((Manager))
+    Driver((Driver))
+    FO((Field Operator))
+
+    Citizen --> UC9
+    Citizen --> UC10
+    Manager --> UC10
+    Manager --> UC12
+    Driver --> UC7
+    Driver --> UC8
+    FO --> UC11
+    FO --> UC10
