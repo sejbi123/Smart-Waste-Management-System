@@ -1,0 +1,9 @@
+sequenceDiagram
+    participant A as Administrator
+    participant S as System
+    A->>S: Select Bin for Deactivation
+    S->>A: Prompt for Reason (Damaged, Replaced, Inactive)
+    A->>S: Provide Reason & Confirm
+    S->>S: Update Bin Status to 'Deactivated'
+    S->>S: Remove from Active Routes
+    S->>A: Confirm Deactivation
