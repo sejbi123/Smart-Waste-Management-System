@@ -1,0 +1,8 @@
+sequenceDiagram
+    participant A as Administrator
+    participant S as System
+    A->>S: Input Truck Details (ID, Capacity, Type)
+    S->>S: Validate & Check Availability
+    S->>S: Register New Vehicle in Fleet
+    S->>A: Confirm Successful Registration
+    S->>S: Add to Fleet Management List
