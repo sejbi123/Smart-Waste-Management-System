@@ -1,0 +1,9 @@
+sequenceDiagram
+    participant M as Manager
+    participant S as System
+    M->>S: Open Scheduling Calendar
+    M->>S: Create Manual Collection Task
+    M->>S: Assign Date, Time, & Zone
+    S->>S: Check Fleet & Driver Availability
+    S->>S: Save Schedule & Notify Relevant Staff
+    S->>M: Confirm Schedule Entry
