@@ -1,0 +1,25 @@
+graph LR
+    subgraph "Smart Waste Management System"
+        UC1(Monitor Bin Fill Levels)
+        UC2(Register/Update Bin Info)
+        UC3(Visualize Bins on Map)
+        UC4(Track Truck Locations)
+        UC5(Manage Fleet Maintenance)
+        UC6(Generate Optimized Routes)
+    end
+
+    Admin((Administrator))
+    Manager((Manager))
+    Driver((Driver))
+    System((IoT Simulator))
+
+    Admin --> UC2
+    Manager --> UC1
+    Manager --> UC3
+    Manager --> UC4
+    Manager --> UC5
+    Manager --> UC6
+    Driver --> UC3
+    Driver --> UC4
+    System --> UC1
+    System --> UC4
