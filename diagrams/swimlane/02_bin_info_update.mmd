@@ -1,0 +1,8 @@
+sequenceDiagram
+    participant M as Manager
+    participant S as System
+    M->>S: Select Bin & Request Update
+    S->>M: Display Current Bin Details
+    M->>S: Submit Updated Details (Capacity, Status, etc.)
+    S->>S: Validate & Save Changes
+    S->>M: Confirm Update Success
