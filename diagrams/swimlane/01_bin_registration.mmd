@@ -1,0 +1,8 @@
+sequenceDiagram
+    participant A as Administrator
+    participant S as System
+    A->>S: Input Bin Details (ID, Type, Location, Zone)
+    S->>S: Validate Data & Check Duplicates
+    S->>S: Register New Bin in Database
+    S->>A: Confirm Successful Registration
+    S->>S: Update Map Visualization
