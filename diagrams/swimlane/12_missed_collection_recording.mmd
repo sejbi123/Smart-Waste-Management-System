@@ -1,0 +1,9 @@
+sequenceDiagram
+    participant D as Driver
+    participant S as System
+    D->>D: Unable to Access Bin (Blocked/Damaged)
+    D->>S: Report Missed Collection
+    D->>S: Provide Reason & Optional Photo
+    S->>S: Log Missed Stop in Database
+    S->>S: Notify Manager of Missed Collection
+    S->>D: Acknowledge Report
